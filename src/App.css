@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: rgb(62, 62, 62);
 }
 
 .header {
@@ -21,4 +22,19 @@ body {
 .course-name {
 	margin-left: auto;
 	color: white;
+}
+
+.main {
+	color: white;
+	padding: 30px;
+}
+
+.main-facts > li {
+	letter-spacing: 0.12rem;
+	line-height: 1.3rem;
+}
+
+.main-facts > li::marker {
+	color: rgb(128, 215, 248);
+	font-size: 1.4rem;
 }

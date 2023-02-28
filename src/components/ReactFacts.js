@@ -2,8 +2,8 @@ import React from "react";
 
 export default function ReactFacts() {
 	return (
-		<div>
-			<h2 className="main-header">Fun Facts about React</h2>
+		<div className="main">
+			<h1 className="main-header">Fun Facts about React</h1>
 			<ul className="main-facts">
 				<li>first released in 2013</li>
 				<li>created by a personm</li>
